@@ -93,7 +93,7 @@ while True:
                 fontScale=font_scale, color=(0, 0, 0), thickness=thickness)
 
     cv2.imshow("image", image)
-    if ord("q") == cv2.waitKey(1):
+    if cv2.waitKey(10) == 27:
         break
 
 cap.release()
