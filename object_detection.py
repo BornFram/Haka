@@ -7,7 +7,7 @@ nms_threshold = 0.6
 
 iou_threshold = 0.4
 cfg_file = "cfg/yolov3.cfg"
-weight_file = "weights/yolov3.weights"
+weight_file = "yolov3.weights"
 namesfile = "data/coco1.names"
 m = Darknet(cfg_file)
 m.load_weights(weight_file)
